@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Droid Serif', serif;;
+  padding: 20px;
+  background: #f1f1f1;
+}
+.header {
+  text-align: center;
+  background: white;
+  height: 100px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+#description {
+  width: 70%;
+  padding-top: 15px;
+  margin-top: 2px;
+  margin-left: -2%;
+}
+.search {
+  position: relative;
+  width: 25%;
+  left: 775px;
+  bottom: 85px;
+}
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.article-img {
+  background-color: #aaa;
+  height: 511px;
+  width: 600px;;
+  padding: 2px;
+  margin: auto;
+}
+.title {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.news-type {
+  float: right;
+  clear: both;
+}
+.author {
+  float: right;
+  clear: both;
+}
+.date {
+  float: right;
+  clear: both;
+}
+.article {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+.article a:hover {
+   color: #aaa;
+   text-decoration: none;
+}
+.article a, .article a:visited {
+   color: black;
+   text-decoration: none;
+}
+.article p a, .article p a:visited {
+   color: #aaa;
+   text-decoration: underline;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#pagenav-prev {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  float: left;
+  clear: none;
+}
+#pagenav-prev a, #pagenav-prev a:hover, #pagenav-prev a:visited {
+  color: white;
+  text-decoration: none;
+}
+#pagenum {
+  margin-left: 37.5%;
+}
+#pagenav-next {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+  clear: none;
+}
+#pagenav-next a, #pagenav-next a:hover, #pagenav-next a:visited {
+  color: white;
+  text-decoration: none;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.footer a, .footer a:hover, .footer a:visited {
+  color: #5b5959;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
